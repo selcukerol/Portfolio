@@ -704,12 +704,14 @@ to {
     font-weight: 400;
     letter-spacing: 1px;
   }
+ /* #triangle{
+    z-index: -1;
+    }*/
 /* ==========================================================================
    Square Text Wrapper
    ========================================================================== */
-  .square-text-wrapper{
+   .square-text-wrapper{
     color: black;
-    display: inline;
     width: 73vw;
     display: inline-block;
     position: absolute;
@@ -734,19 +736,41 @@ to {
     letter-spacing: 3px;
     color: #000;
   }
+/* ==========================================================================
+   Triangle Text Wrapper
+   ========================================================================== */
+   .triangle-text-wrapper{
+     display: inline-block;
+     position: absolute;
+     top: 50%;
+     left: 27%;
+     margin-left: 0;
+     transform: translate(-50%, -50%);
+   }
+   .triangle-text-wrapper-sub{
+    list-style: none;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    color: #000;
+  }   
   /* ==========================================================================
    Icons
    ========================================================================== */
-.icons{
-  position: relative;
-  float: right;
-  margin-right: 10%;
-  margin-top: 7%;
-}
-.contact-icons{
-  width: 50px;
-  height: 50px;
-}
+   .icons{
+    position: relative;
+    float: right;
+    margin-right: 10%;
+    margin-top: 7%;
+  }
+  .contact-icons{
+    width: 50px;
+    height: 50px;
+  }
+  .project-icons{
+    width:100px;
+    height: auto;
+    margin-top: 10px;
+  }
 
 
 

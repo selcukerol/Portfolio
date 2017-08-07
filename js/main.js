@@ -15,6 +15,7 @@ $(document).ready(function(){
 	$('#triangle').click(function(){
 		$(this).toggleClass('resize-triangle')
 		$('#square, #circle').toggleClass('invisible')
+		$('#projects').toggleClass('invisible')
 	});
 
 
